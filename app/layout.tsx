@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Khristopher Kidman",
   description: "Portfólio Khristopher Kidman",
   openGraph: {
-    images: ['/metadata/portfolio.png']
+    images: ['/assets/metadata/portfolio.png']
   },
   robots: {
     index: true,
