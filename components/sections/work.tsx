@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Swiper, SwiperClass, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
 import { FaFigma } from 'react-icons/fa'
@@ -96,7 +96,7 @@ const projects = [
 const Work = () => {
   const [project, setProject] = useState(projects[0])
 
-  const handleSlideChange = (swiper: any) => {
+  const handleSlideChange = (swiper: SwiperClass) => {
     const currentIndex = swiper.activeIndex
     setProject(projects[currentIndex])
   }
