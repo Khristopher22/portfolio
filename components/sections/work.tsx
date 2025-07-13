@@ -1,6 +1,5 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
@@ -110,7 +109,6 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="flex flex-col-reverse xl:flex-row xl:gap-[30px] gap-8">
 
-          {/* Bloco esquerdo (texto) */}
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between">
             <div className="flex flex-col gap-[20px] sm:gap-[30px] h-auto xl:h-[50%]">
               <div className="text-6xl sm:text-7xl xl:text-8xl font-extrabold text-transparent text-outline">
@@ -181,7 +179,6 @@ const Work = () => {
             </div>
           </div>
 
-          {/* Bloco direito (imagem/Swiper) */}
           <div className="w-full xl:w-[50%]">
             <Swiper
               spaceBetween={30}

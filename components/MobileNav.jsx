@@ -17,7 +17,7 @@ const MobileNav = () => {
     const [open, setOpen] = useState(false);
 
     const handleLinkClick = () => {
-        setOpen(false); // Fecha o menu após clique
+        setOpen(false);
     };
 
     return (

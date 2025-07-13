@@ -30,7 +30,6 @@ const Contact = () => {
       <div className="container min-h-screen mx-auto flex items-center justify-center">
         <div className="flex flex-col xl:flex-row gap-[30px] w-full max-w-6xl h-full">
 
-          {/* Formulário */}
           <div className="w-full xl:w-[54%] order-2 xl:order-none">
             <form
               action="https://formsubmit.co/khristopheroficial@gmail.com"
@@ -64,7 +63,6 @@ const Contact = () => {
             </form>
           </div>
 
-          {/* Informações de contato */}
           <div className="w-full xl:flex-1 flex justify-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
             <ul className="flex flex-col gap-8 w-full xl:w-auto self-center">
               {info.map((item, index) => (

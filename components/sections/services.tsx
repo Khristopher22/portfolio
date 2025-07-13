@@ -1,7 +1,6 @@
 'use client'
 
 import { BsArrowDownRight } from 'react-icons/bs'
-import { motion } from 'framer-motion'
 
 const services = [
   {

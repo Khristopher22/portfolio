@@ -30,7 +30,6 @@ import {
 } from '@/components/ui/tooltip'
 
 import { ScrollArea } from '@/components/ui/scroll-area'
-import { motion } from 'framer-motion'
 
 const about = {
   title: 'Sobre mim',
@@ -120,7 +119,6 @@ const Resume = () => {
           defaultValue="experience"
           className="flex flex-col xl:flex-row gap-10 sm:gap-[60px]"
         >
-          {/* Tabs laterais */}
           <TabsList className="flex flex-col w-full max-w-[320px] sm:max-w-[360px] xl:max-w-[380px] mx-auto xl:mx-0 gap-4 sm:gap-6">
             <TabsTrigger value="experience" className="bg-[#232329]">
               Experiência
@@ -136,9 +134,7 @@ const Resume = () => {
             </TabsTrigger>
           </TabsList>
 
-          {/* Conteúdo com altura reduzida no mobile */}
           <div className="w-full h-[600px] sm:h-[650px] xl:h-[700px] overflow-hidden relative">
-            {/* EXPERIENCE */}
             <TabsContent
               value="experience"
               className="absolute inset-0 overflow-y-auto pr-4"
@@ -172,7 +168,6 @@ const Resume = () => {
               </div>
             </TabsContent>
 
-            {/* EDUCATION */}
             <TabsContent
               value="education"
               className="absolute inset-0 overflow-y-auto pr-4"
@@ -206,7 +201,6 @@ const Resume = () => {
               </div>
             </TabsContent>
 
-            {/* SKILLS */}
             <TabsContent
               value="skills"
               className="absolute inset-0 overflow-y-auto pr-4"
@@ -237,7 +231,6 @@ const Resume = () => {
               </div>
             </TabsContent>
 
-            {/* ABOUT */}
             <TabsContent
               value="about"
               className="absolute inset-0 overflow-y-auto pr-4"
